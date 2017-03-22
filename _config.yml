@@ -1,10 +1,10 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
+title: A random blog
+description: "Some description here"
 url: "http://www.jacoporabolini.com/emerald"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
+  name: "Andrew Kharchyshyn"
+  email: "haawaplus@gmail.com"
   url: "http://www.jacoporabolini.com"
 
 # Build settings
@@ -26,9 +26,12 @@ defaults:
       layout: "post"
 
 # Custom variables
-version: "1.1.0"
+version: "1.0.0"
 
 # Options
 custom_header: false
 custom_nav_footer: false
 reverse: false
+
+# Gems
+gems: [jekyll-paginate]
